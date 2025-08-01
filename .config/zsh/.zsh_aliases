@@ -1,0 +1,25 @@
+
+###------Aliases------### 
+
+###------Navigation With EZA------###
+alias ls="command eza --all --group-directories-first --icons=always"
+alias l="eza --oneline --classify --icons=auto"
+
+#  file/dir listings
+alias ll="eza --long --all --group-directories-first --icons=auto --git"
+alias ld="eza --long --only-dirs --icons=auto"
+alias lf="eza --long --classify --icons=auto | grep --invert-match '/$'"  # More reliable than matching /
+alias lh="eza --long --all --group-directories-first --icons=auto '.*'"
+
+# Time-sorted
+alias lt="eza --long --all --sort=modified --time-style=iso --icons=auto"
+alias ltr="eza --long --all --sort=modified --reverse --time-style=long-iso --icons=auto"
+
+###------Editor------###
+alias vim="nvim"
+
+###------Cat------###
+alias cat='bat --theme=TwoDark'
+
+###------Find------###
+alias find='fd'

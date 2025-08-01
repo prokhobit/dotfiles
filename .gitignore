@@ -1,0 +1,19 @@
+~/.dotfiles/.gitignore
+
+
+
+# Don't track runtime/system/private files
+.DS_Store
+.zsh_sessions/
+.zcompcache/
+.password-store/
+.ssh/
+.gnupg/
+
+
+
+###------ GitHub CLI------###
+.config/gh/hosts.yml
+
+###------Stardew------###
+.config/StardewValley
