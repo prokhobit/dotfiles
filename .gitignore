@@ -6,15 +6,22 @@
 .DS_Store
 .zsh_sessions/
 .zcompcache/
-.password-store/
 .ssh/
 .gnupg/
-
+═══════════════════════════
 ###------ Raycast ------### 
 .config/raycast/extensions/
-
+═════════════════════════════
 ###------ GitHub CLI------###
 .config/gh/hosts.yml
-
+═════════════════════════
 ###------Stardew------###
 .config/StardewValley
+
+═════════════════════════
+###------ Misc ------###
+
+.config/qBittorent
+.config/fish
+.config/cava
+
