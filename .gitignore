@@ -10,7 +10,8 @@
 .ssh/
 .gnupg/
 
-
+###------ Raycast ------### 
+.config/raycast/extensions/
 
 ###------ GitHub CLI------###
 .config/gh/hosts.yml
