@@ -4,18 +4,19 @@
 
 ---
 
-###------   What is this? ------###
+═════════════════════════════════ 
+###------ What is this? ------###
 
 This is my cross-platform dotfiles setup built for:
 
--   Fast bootstrapping on **macOS** and **Linux**
+- Fast bootstrapping on **macOS** and **Linux**
 - Repeatable, version-controlled config
 - Zsh/Bash, Neovim, Git and HomeBrew
 - SSH, Docker, Network tools, etc...
-- 󰸰 Some mildly chaotic scripts that sometimes work
+- Some mildly chaotic scripts that sometimes work
 
-
-###------  Features ------###
+════════════════════════════ 
+###------ Features ------###
 
 - Custom **Zsh/Bash** configs with fast shell startups
 - Modular aliases and plugin loading (no plugin managers harmed)
@@ -24,18 +25,19 @@ This is my cross-platform dotfiles setup built for:
 
 ---
 
-###------   Works On ------###
+═════════════════════════════ 
+###------  Works On ------###
 
 | OS           | Status      |
 |--------------|-------------|
-| macOS (main) | 󰗠 Verified  |
-| Linux (Arch) | 󰗠  Verified |
-| WSL          |   Nope |
-| Windows      | 🤡 Good luck |
+| macOS (main) |  ✓Verified  |
+| Linux (Arch) |  ✓Verified  |
+| WSL          |  ✗Nope      |
+| Windows      | 🤡Good luck |
 
 ---
-
-###------   Tools & Philosophy ------###
+══════════════════════════════════════ 
+###------ Tools & Philosophy ------###
 
 | Tool        | Why I Use It                                      |
 |-------------|---------------------------------------------------|
@@ -43,7 +45,11 @@ This is my cross-platform dotfiles setup built for:
 | `nvim`      | Pain                                                |
 | `stow`      | Symlink everything                                 |
 | `git`       | Version control           |
-| 
+| `docker`    |
+| `wireshark` |
+| `btop`      |
+| `ghostty`   |
+
 ---
 
 ## 🛠️ Setup
