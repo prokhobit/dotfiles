@@ -4,7 +4,6 @@
 
 ---
 
-═════════════════════════════════ 
 ###------ What is this? ------###
 
 This is my cross-platform dotfiles setup built for:
@@ -15,7 +14,6 @@ This is my cross-platform dotfiles setup built for:
 - SSH, Docker, Network tools, etc...
 - Some mildly chaotic scripts that sometimes work
 
-════════════════════════════ 
 ###------ Features ------###
 
 - Custom **Zsh/Bash** configs with fast shell startups
@@ -25,7 +23,6 @@ This is my cross-platform dotfiles setup built for:
 
 ---
 
-═════════════════════════════ 
 ###------  Works On ------###
 
 | OS           | Status      |
@@ -36,7 +33,6 @@ This is my cross-platform dotfiles setup built for:
 | Windows      | 🤡Good luck |
 
 ---
-══════════════════════════════════════ 
 ###------ Tools & Philosophy ------###
 
 | Tool        | Why I Use It                                      |
