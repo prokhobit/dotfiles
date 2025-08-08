@@ -39,4 +39,4 @@ font-size = 15
 
 #Keybinds
 
-keybind = global:cmd+/=toggle_quick_terminal
+keybind = global:cmd+`=toggle_quick_terminal

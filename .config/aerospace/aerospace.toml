@@ -185,7 +185,7 @@ automatically-unhide-macos-hidden-apps = false
 
 
 [[on-window-detected]]
-if.app-name-regex-substring = 'finder'
+if.app-id = 'com.apple.finder'
 run = 'layout floating'
 
 [[on-window-detected]]
@@ -208,3 +208,19 @@ run = ['layout tiling', 'move-node-to-workspace 5']
 [[on-window-detected]]
 if.app-id = 'net.whatsapp.WhatsApp'
 run = ['layout tiling', 'move-node-to-workspace 5'] 
+
+[[on-window-detected]]
+if.app-id = 'ru.keepcoder.Telegram'
+run = ['layout tiling', 'move-node-to-workspace 5']
+
+[[on-window-detected]]
+if.app-id = 'org.whispersystems.signal-desktop'
+run = ['layout tiling', 'move-node-to-workspace 5']
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.VSCode'
+run = ['layout tiling', 'move-node-to-workspace 2']
+
+[[on-window-detected]]
+if.app-id = 'dev.vencord.vesktop'
+run = ['layout tiling', 'move-node-to-workspace 5']
