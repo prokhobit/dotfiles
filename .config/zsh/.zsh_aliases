@@ -23,3 +23,5 @@ alias cat='bat --theme=TwoDark'
 
 ###------Find------###
 alias find='fd'
+
+###------Yazi------###

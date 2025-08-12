@@ -13,6 +13,12 @@ fi
 export EDITOR="nvim"
 export VISUAL="nvim"
 
+###------vi mode------###
+bindkey -v
+export KEYTIMEOUT=1
+
+bindkey "^?" backward-delete-char
+
 ###------HISTORY-----###
 export HISTFILE="$HOME/.local/share/zsh/history"
 export HISTSIZE=1000000
